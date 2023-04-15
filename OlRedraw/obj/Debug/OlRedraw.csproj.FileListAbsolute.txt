@@ -1,0 +1,10 @@
+D:\study\GitHub\OlRedraw\OlRedraw\bin\Debug\OlRedraw.exe.config
+D:\study\GitHub\OlRedraw\OlRedraw\bin\Debug\OlRedraw.exe
+D:\study\GitHub\OlRedraw\OlRedraw\bin\Debug\OlRedraw.pdb
+D:\study\GitHub\OlRedraw\OlRedraw\obj\Debug\OlRedraw.csproj.AssemblyReference.cache
+D:\study\GitHub\OlRedraw\OlRedraw\obj\Debug\OlRedraw.MainForm.resources
+D:\study\GitHub\OlRedraw\OlRedraw\obj\Debug\OlRedraw.Properties.Resources.resources
+D:\study\GitHub\OlRedraw\OlRedraw\obj\Debug\OlRedraw.csproj.GenerateResource.cache
+D:\study\GitHub\OlRedraw\OlRedraw\obj\Debug\OlRedraw.csproj.CoreCompileInputs.cache
+D:\study\GitHub\OlRedraw\OlRedraw\obj\Debug\OlRedraw.exe
+D:\study\GitHub\OlRedraw\OlRedraw\obj\Debug\OlRedraw.pdb
