@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Control\OlCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\OlCheckBox.Designer.cs">
+      <DependentUpon>OlCheckBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Control\OlSwitchBox.cs">
       <SubType>Component</SubType>
     </Compile>

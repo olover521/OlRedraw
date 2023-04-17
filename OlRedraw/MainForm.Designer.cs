@@ -31,6 +31,7 @@ namespace OlRedraw
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.olSwitchBox1 = new OlRedraw.Control.OlSwitchBox();
+            this.olCheckBox1 = new OlRedraw.Control.OlCheckBox();
             this.SuspendLayout();
             // 
             // olSwitchBox1
@@ -52,10 +53,26 @@ namespace OlRedraw
             this.olSwitchBox1.OnForeColor = System.Drawing.Color.White;
             this.olSwitchBox1.UseVisualStyleBackColor = true;
             // 
+            // olCheckBox1
+            // 
+            resources.ApplyResources(this.olCheckBox1, "olCheckBox1");
+            this.olCheckBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.olCheckBox1.Name = "olCheckBox1";
+            this.olCheckBox1.OffBorderColor = System.Drawing.Color.Gray;
+            this.olCheckBox1.OffSelectColor = System.Drawing.Color.Blue;
+            this.olCheckBox1.OffTickBackColor = System.Drawing.Color.Gray;
+            this.olCheckBox1.OffTickColor = System.Drawing.Color.White;
+            this.olCheckBox1.OnBorderColor = System.Drawing.Color.Black;
+            this.olCheckBox1.OnSelectColor = System.Drawing.Color.White;
+            this.olCheckBox1.OnTickBackColor = System.Drawing.Color.Blue;
+            this.olCheckBox1.OnTickColor = System.Drawing.Color.White;
+            this.olCheckBox1.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.olCheckBox1);
             this.Controls.Add(this.olSwitchBox1);
             this.Name = "MainForm";
             this.ShowIcon = false;
@@ -67,6 +84,7 @@ namespace OlRedraw
         #endregion
 
         private Control.OlSwitchBox olSwitchBox1;
+        private Control.OlCheckBox olCheckBox1;
     }
 }
 
