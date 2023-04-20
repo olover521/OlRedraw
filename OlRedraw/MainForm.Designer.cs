@@ -30,9 +30,28 @@ namespace OlRedraw
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.olSwitchBox1 = new OlRedraw.Control.OlSwitchBox();
             this.olCheckBox1 = new OlRedraw.Control.OlCheckBox();
+            this.olSwitchBox1 = new OlRedraw.Control.OlSwitchBox();
+            this.olTabControl1 = new OlRedraw.Control.OlTabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.olTabControl1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // olCheckBox1
+            // 
+            resources.ApplyResources(this.olCheckBox1, "olCheckBox1");
+            this.olCheckBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.olCheckBox1.Name = "olCheckBox1";
+            this.olCheckBox1.OffBorderColor = System.Drawing.Color.Gray;
+            this.olCheckBox1.OffSelectColor = System.Drawing.Color.Blue;
+            this.olCheckBox1.OffTickBackColor = System.Drawing.Color.Gray;
+            this.olCheckBox1.OffTickColor = System.Drawing.Color.White;
+            this.olCheckBox1.OnBorderColor = System.Drawing.Color.Black;
+            this.olCheckBox1.OnSelectColor = System.Drawing.Color.White;
+            this.olCheckBox1.OnTickBackColor = System.Drawing.Color.Blue;
+            this.olCheckBox1.OnTickColor = System.Drawing.Color.White;
+            this.olCheckBox1.UseVisualStyleBackColor = true;
             // 
             // olSwitchBox1
             // 
@@ -53,29 +72,36 @@ namespace OlRedraw
             this.olSwitchBox1.OnForeColor = System.Drawing.Color.White;
             this.olSwitchBox1.UseVisualStyleBackColor = true;
             // 
-            // olCheckBox1
+            // olTabControl1
             // 
-            resources.ApplyResources(this.olCheckBox1, "olCheckBox1");
-            this.olCheckBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.olCheckBox1.Name = "olCheckBox1";
-            this.olCheckBox1.OffBorderColor = System.Drawing.Color.Gray;
-            this.olCheckBox1.OffSelectColor = System.Drawing.Color.Blue;
-            this.olCheckBox1.OffTickBackColor = System.Drawing.Color.Gray;
-            this.olCheckBox1.OffTickColor = System.Drawing.Color.White;
-            this.olCheckBox1.OnBorderColor = System.Drawing.Color.Black;
-            this.olCheckBox1.OnSelectColor = System.Drawing.Color.White;
-            this.olCheckBox1.OnTickBackColor = System.Drawing.Color.Blue;
-            this.olCheckBox1.OnTickColor = System.Drawing.Color.White;
-            this.olCheckBox1.UseVisualStyleBackColor = true;
+            this.olTabControl1.Controls.Add(this.tabPage1);
+            this.olTabControl1.Controls.Add(this.tabPage2);
+            resources.ApplyResources(this.olTabControl1, "olTabControl1");
+            this.olTabControl1.Name = "olTabControl1";
+            this.olTabControl1.SelectedIndex = 0;
+            // 
+            // tabPage1
+            // 
+            resources.ApplyResources(this.tabPage1, "tabPage1");
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            resources.ApplyResources(this.tabPage2, "tabPage2");
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.olTabControl1);
             this.Controls.Add(this.olCheckBox1);
             this.Controls.Add(this.olSwitchBox1);
             this.Name = "MainForm";
             this.ShowIcon = false;
+            this.olTabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -85,6 +111,9 @@ namespace OlRedraw
 
         private Control.OlSwitchBox olSwitchBox1;
         private Control.OlCheckBox olCheckBox1;
+        private Control.OlTabControl olTabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
     }
 }
 

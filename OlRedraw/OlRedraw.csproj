@@ -58,6 +58,12 @@
     <Compile Include="Control\OlSwitchBox.Designer.cs">
       <DependentUpon>OlSwitchBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Control\OlTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\OlTabControl.Designer.cs">
+      <DependentUpon>OlTabControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
